@@ -112,7 +112,7 @@ a {
   text-align: center;
   align-items: center;
   font-size: 2.5rem;
-  background-image: url("https://i.postimg.cc/yWqfR0ZS/wood-shaving.jpg");
+  background-image: url("https://i.postimg.cc/43qXYN5H/wood-shaving.jpg");
   background-size: cover;
   flex-direction: column;
   background-repeat: no-repeat;
@@ -129,6 +129,7 @@ a {
 
 #welcome-section input[type="email"] {
   max-width: 275px;
+  height: 30px;
   width: 100%;
   padding: 5px;
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
@@ -141,4 +142,5 @@ a {
   margin: 15px 0;
   border: 0;
   background-color: #f1c40f;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
 }
