@@ -105,3 +105,35 @@ a {
   font-size: 2rem;
   padding: 2rem;
 }
+
+#welcome-section {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: 2rem;
+  background-color: #335B96;
+  flex-direction: column;
+  height: 300px;
+}
+
+#welcome-section h2 {
+  margin-bottom: 20px;
+  word-wrap: break-word;
+}
+
+#welcome-section input[type="email"] {
+  max-width: 275px;
+  width: 100%;
+  padding: 5px;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+}
+
+#welcome-section input[type="submit"] {
+  max-width: 150px;
+  width: 100%;
+  height: 30px;
+  margin: 15px 0;
+  border: 0;
+  background-color: #f1c40f;
+}
